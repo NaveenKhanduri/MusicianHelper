@@ -53,7 +53,7 @@ def chord_scraper(browser):
     artist = header[2].find('a').text
     title = header[2].find('h1').text
 
-     return title, artist, chords
+    return title, artist, chords
 
 
 
