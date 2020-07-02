@@ -1,0 +1,68 @@
+1593727733785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile29YSTy"
+1593727735751	Marionette	INFO	Listening on port 37667
+1593727735799	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593727740666	Marionette	INFO	Stopped listening on port 37667
+1593728695494	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAXmUji"
+1593728697632	Marionette	INFO	Listening on port 39629
+1593728697701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593728706265	Marionette	INFO	Stopped listening on port 39629
+1593728728659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexOb3AJ"
+1593728729987	Marionette	INFO	Listening on port 39299
+JavaScript warning: moz-extension://25820455-53d2-4722-9b9c-2386680f0caa/lib/filter/antibanner.js, line 1158: unreachable code after return statement
+1593728730063	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://25820455-53d2-4722-9b9c-2386680f0caa/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://25820455-53d2-4722-9b9c-2386680f0caa/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.274877906969
+1593728744674	Marionette	INFO	Stopped listening on port 39299
+1593729213397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKlMhR8"
+1593729214984	Marionette	INFO	Listening on port 36573
+1593729215009	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/filter/antibanner.js, line 1158: unreachable code after return statement
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1593729284246	Marionette	ERROR	[29] No reply from Marionette:Register
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+1593729308085	Marionette	INFO	Stopped listening on port 36573
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.274877906955
+1593729342733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3iYah6"
+JavaScript warning: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/filter/antibanner.js, line 1158: unreachable code after return statement
+1593729344482	Marionette	INFO	Listening on port 41317
+1593729344539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+1593729369337	Marionette	ERROR	[29] No reply from Marionette:Register
+1593729375542	Marionette	INFO	Stopped listening on port 41317
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit adblockultimate@adblockultimate.net.274877906963
+1593729379682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerAYDmZ"
+JavaScript warning: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/filter/antibanner.js, line 1158: unreachable code after return statement
+1593729381343	Marionette	INFO	Listening on port 39381
+1593729381388	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://www.ultimate-guitar.com/static/public/build/ug_react/ug~runtime.40da70d4a9424ddbd90fb535e54f89fd7db3b1d8fd22f233c1c723789a38bd88.js, line 1: ChunkLoadError: Loading chunk 19 failed.
+(error: https://www.ultimate-guitar.com/static/public/build/ug_react/202007/analytics_actions.287124d0c110d6ccb819a746a5e014d30b4f1db8ce505471b211ea505a7a88b6.js)
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 659"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:659:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:1998:69
+addAllSources@resource://devtools/server/actors/thread.js:1382:14
+onSources@resource://devtools/server/actors/thread.js:1388:10
+onPacket@resource://devtools/server/devtools-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 659, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 659: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+JavaScript error: moz-extension://55d9da47-0b56-4984-a928-2309604a6559/lib/ui-service.js, line 231: Error: Could not establish connection. Receiving end does not exist.
