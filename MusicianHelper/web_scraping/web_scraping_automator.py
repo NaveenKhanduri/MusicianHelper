@@ -24,6 +24,7 @@ for key in keynums:
             print(title)
             song_list[title] = chord_tuple[2]
         temp_data[key_links[0]] = song_list
+
     except:
         temp_data["blank"] = key_links[1]
 
