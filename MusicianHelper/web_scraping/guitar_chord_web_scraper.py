@@ -1,23 +1,19 @@
-from splinter import Browser
 from bs4 import BeautifulSoup
 from selenium.webdriver import Firefox, FirefoxProfile
-from selenium.webdriver.firefox.options import Options
-import os
-import numpy as np
+from selenium import webdriver
 
 
 def init_browser():
-    opts = Options()
-    opts.set_headless()
-    assert opts.headless
+
     fp = FirefoxProfile("//home/shetdedoe/.mozilla/firefox/ixj5l1k6.MusicianProfile/")
-    browser = Firefox(firefox_profile=fp)
+    options = webdriver.FirefoxOptions()
+    options.set_headless()
+    browser = Firefox(firefox_profile=fp, firefox_options=options)
     return browser
 
 
 #returns a tuple consisting of links to guitar chord pages, and a list of every link on the page. Second tuple element is just for debugging purposes
 def link_list(browser):
-    browser = init_browser()
     #link to page on ultimate-guitar.com which contains links to guitar chord pages
     # html.parser has almost the same speed as xlm, and is almost as accurate as html5lib, so its a good middle ground
     html = browser.page_source
@@ -47,18 +43,20 @@ def chord_scraper(browser):
     soup = BeautifulSoup(html, 'html.parser')
 
     body = soup.find('body').find('main').find('pre')
-    chords = [i.text for i in body.find_all('span')]
+    chords = [c.text for c in body.find_all(attrs={'data-name': True})]
 
     header = soup.find('body').find('main').find_all('header')
-    artist = header[2].find('a').text
-    title = header[2].find('h1').text
+
+    artists = header[1].find_all("a")
+    if len(artists) > 1:
+        artist = ""
+        for a in artists:
+            artist = artist + "/" + a.text
+    else:
+        artist = artists[0].text
+
+    title = header[1].find('h1').text
 
     return title, artist, chords
-
-
-
-
-
-#to be written in separate file
 
 
